@@ -1,4 +1,15 @@
-import logo from './logo.svg';
+import Section from './components/Section';
+import ImageFinder from './components/ImageFinder';
+
+export default function App() {
+  return (
+    <Section>
+      <ImageFinder />
+    </Section>
+  );
+}
+
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +34,4 @@ function App() {
 }
 
 export default App;
+ */
